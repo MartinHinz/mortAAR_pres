@@ -1,10 +1,8 @@
-# shapAAR_pres
+# mortAAR_pres  
 Abstract for CAA 2018
 
-Classifying vessel shapes using automated shape extraction and unsupervised classification
+mortAAR: The Analysis of archaeological mortality data in R
 
-Since the beginning of scientific archaeology, vessels have been classified primarily by their form. Especially since the advent of computers in archaeology, there has been a variety of pursuits to achieve a classification by means of metric measures and on a statistical basis. An example of this approach is Koch 1998, where the vessels were recorded at significant measuring points. Of course, the (subjective) selection of the measuring points is a decisive and time-consuming aspect of the procedure. Another approach involves methods in which the entire form is digitized and evaluated (Mom 2005, Chapman et al., 2006, Keogh et al., 2009). 
+Up to now, a simple to rise and easily accessible tool for computing archaeological life tables was lacking. Therefore, the Initatie for Statistical Analysis in Archaeology Kiel (ISAAK) has developed „mortAAR“, a set of R functions to generate and analyze life tables deriving from archaeological mortality data. In recent years, physical anthropologists have become very cautious with regard to the life tables of archaeological populations. The reason for this are various difficulties which, in addition to the problem of identfying the correct age-related characteristcs, arise in particular from the question of representativeness. We are fully aware of these problems, but would like to demonstrate with the help of several example data sets that it is precisely in the comparison of data with expected mortality patterns that useful informaton about cultural preferences – e.g., who has to be buried and who not – can be elucidated.
 
-Our approach follows in general the second premise, but is very simple: we consider the vessels as a rotation body, and evaluate one side of the profile by transferring it into measuring points. The resulting measurement series can then easily be evaluated by common multivariate methods. Other nominal features such as e.g. rim shape or decoration can be added as additional parameters.
-
-In this paper, we would like to present the approach and its application in different case studies (copper age ceramics of the southern Iberian Peninsula, neolithic vessels from switzerland). We apply a more conventional classification (PCA and hierarchical cluster analysis) and compare the results to the ones achieved by more modern techniques (t-SNE and HDBSCAN). By means of the proposed method and our R package, it is easily possible to process large quantities of vessel profiles and to follow development trends beyond the classical typological classification.[
+*Christoph Rinne, Martin Hinz, Nils Müller-Scheeßel*
